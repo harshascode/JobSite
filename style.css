@@ -121,7 +121,8 @@ ul {
 }
 
 .menu-toggle {
-  display: none; /* Hidden on desktop */
+  display: none;
+  /* Hidden on desktop */
   background: none;
   border: none;
   color: var(--text-light);
@@ -165,11 +166,13 @@ ul {
   .main-menu {
     flex-direction: column;
     width: 100%;
-    display: none; /* Hidden by default on mobile */
+    display: none;
+    /* Hidden by default on mobile */
   }
 
   .main-menu.active {
-    display: flex; /* Show when active */
+    display: flex;
+    /* Show when active */
   }
 
   .main-menu li {
@@ -227,7 +230,8 @@ h4.section-title {
 }
 
 .whatsapp-button .button {
-  background-color: #25d366; /* WhatsApp green */
+  background-color: #25d366;
+  /* WhatsApp green */
   color: var(--text-light);
   padding: 12px 25px;
   border-radius: 5px;
@@ -256,7 +260,8 @@ h4.section-title {
 }
 
 .button-row .button {
-  flex: 1 1 calc(25% - 10px); /* 4 buttons per row with gap */
+  flex: 1 1 calc(25% - 10px);
+  /* 4 buttons per row with gap */
   min-width: 150px;
   text-align: center;
   padding: 12px 5px;
@@ -275,37 +280,46 @@ h4.section-title {
 .button.green {
   background: var(--button-green);
 }
+
 .button.blue {
   background: var(--button-blue);
 }
+
 .button.orange {
   background: var(--button-orange);
 }
+
 .button.red {
   background: var(--button-red);
 }
+
 .button.purple {
   background: var(--button-purple);
 }
+
 .button.pink {
   background: var(--button-pink);
 }
+
 .button.teal {
   background: var(--button-teal);
 }
+
 .button.deepblue {
   background: var(--button-deepblue);
 }
 
 @media (max-width: 768px) {
   .button-row .button {
-    flex: 1 1 calc(50% - 10px); /* 2 buttons per row on smaller screens */
+    flex: 1 1 calc(50% - 10px);
+    /* 2 buttons per row on smaller screens */
   }
 }
 
 @media (max-width: 480px) {
   .button-row .button {
-    flex: 1 1 100%; /* 1 button per row on very small screens */
+    flex: 1 1 100%;
+    /* 1 button per row on very small screens */
   }
 }
 
@@ -338,7 +352,8 @@ h4.section-title {
 .content-block li a {
   color: var(--text-dark);
   text-decoration: none;
-  display: block; /* Make the whole area clickable */
+  display: block;
+  /* Make the whole area clickable */
 }
 
 .content-block li a:hover {
@@ -383,7 +398,8 @@ h4.section-title {
 .about-section h4 {
   margin-top: 25px;
   margin-bottom: 15px;
-  color: #252ed7; /* Match header title color */
+  color: #252ed7;
+  /* Match header title color */
 }
 
 .about-section h2 {
@@ -450,7 +466,8 @@ h4.section-title {
 
 .social-icons img {
   margin-right: 15px;
-  height: 40px; /* Adjust size as needed */
+  height: 40px;
+  /* Adjust size as needed */
   width: auto;
   transition: opacity 0.3s ease;
 }
